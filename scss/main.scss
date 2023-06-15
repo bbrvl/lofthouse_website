@@ -1,0 +1,44 @@
+// BASE
+
+@import './base/mixin';
+@import './base/reset';
+@import './base/vars';
+@import './base/base';
+
+
+// BLOCKS
+
+// HEADER 
+@import './blocks/header';
+@import './blocks/nav';
+@import './blocks/nav-icon';  
+@import './blocks/info';
+
+
+// MAIN
+// section - benefits
+@import './blocks/benefits';
+
+// section - appartments
+@import './blocks/appartments';
+@import './blocks/card';
+
+// section - cta
+@import './blocks/cta';
+@import './blocks/form';
+
+// section - video
+@import './blocks/video';
+
+// section - map
+@import './blocks/section-map';
+@import './blocks/yandex-map';
+
+// section - feedback
+@import './blocks/feedback';
+
+
+// FOOTER
+@import './blocks/footer';
+
+

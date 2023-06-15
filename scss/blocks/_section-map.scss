@@ -1,0 +1,33 @@
+.section-map {
+    padding: 180px 0;
+    position: relative;
+
+    // римская цифра 5
+    &::before {
+        content: "V";
+    
+        right: calc(50% + 555px);
+        transform: translate(50%, 0%);
+        line-height: 1;
+
+        @include deconNumber;
+        top: 180px;
+    }
+
+    @include mediaTablet {
+        padding: 90px 0;
+    }
+}
+
+.section-map__title {
+    margin-bottom: 88px;
+
+    @include mediaTablet {
+        padding: 44px 0;
+    }
+}
+
+.map {
+    height: 358px;
+    background: #626262;
+}
